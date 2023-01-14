@@ -239,3 +239,72 @@ img {
     color: #ffffff;
 }
 
+/* MAIN SECTION */
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px 15px;
+}
+
+@media(min-width: 720px) {
+    .col-1-2 {
+        float: left;
+        width: calc(97.5%/2);
+    }
+  
+    .col-1-2:not(:last-child) {
+        margin-right: 2.5%;
+    }
+  
+    .col-1-3 {
+        float: left;
+        width: calc(95%/3);
+    }
+  
+    .col-1-3:not(:last-child) {
+        margin-right: 2.5%;
+    }
+  
+    .col-1-4 {
+        float: left;
+        width: calc(92.5%/4);
+    }
+  
+    .col-1-4:not(:last-child) {
+        margin-right: 2.5%;
+    }
+}
+
+.alert {
+    text-align: left;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+}
+
+.alert-content {
+    display: flex;
+    align-items: center;
+}
+
+.alert-error {
+    background-color: #fc472e;
+}
+
+.alert img {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.alert p {
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+/* BILLING DETAILS */
+
