@@ -46,6 +46,18 @@ h1 {
     line-height: 1.25;
 }
 
+h2 {
+    font-size: calc(64px / 1.5);
+}
+  
+h3 {
+    font-size: calc(45px / 1.5);
+}
+
+h4 {
+    font-size: calc(23px / 1.5);
+}
+
 @media(min-width: 720px) {
     h1 {
         font-size: calc(64px / 1.25);
@@ -105,6 +117,11 @@ li {
     list-style: none;
 }
 
+b,
+strong {
+    font-weight: 700;
+}
+
 /* STRUCTURE */
 
 img {
@@ -115,6 +132,15 @@ img {
     max-width: 1160px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.divider {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #f2f3f2;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 label {
@@ -406,4 +432,55 @@ small {
 
 .help-box p {
     margin-bottom: 0;
+}
+
+/* SITE FOOTER */
+
+.footer {
+    padding: 30px 30px 60px;
+}
+
+.footer-section {
+    margin-bottom: 15px;
+}
+
+@media(min-width: 720px) {
+    .footer-section {
+        margin-bottom: 0;
+    }
+}
+
+.footer .logo {
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.footer a  {
+    color: #959595;
+    text-decoration: none;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer-email-input {
+    width: 68% !important;
+    margin-right: 2.5%;
+}
+
+.footer-email-button {
+    width: 27.5% !important;
+    font-size: 12px !important;
+    padding: 10px !important;
+}
+
+@media(min-width: 768px) {
+    .footer-email-input {
+        width: 57% !important;
+    }
+  
+    .footer-email-button {
+        width: 37.5% !important;
+    }
 }
