@@ -372,3 +372,9 @@ small {
     font-size: 12px;
     line-height: 1.25;
 }
+
+/* PAYMENT METHOD */
+
+.button-primary {
+    background-color: #00cf63;
+}
