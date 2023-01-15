@@ -153,9 +153,34 @@
                                     <hr class="divider">
                                 </form>
 
-                                <!-- PAYMENT METHOD -->
-
+                                <!-- 3. PAYMENT METHOD -->
+                                <h2 class="section-header">3. Payment Method</h2>
+                                <form class="clearfix">
+                                    <fieldset>
+                                        <div class="col-1-2">
+                                            <label for="creditcard">Credit Card Number</label>
+                                            <input type="text" id="creditcard" class="input-error"/>
+                                        </div>
+                                        <div class="col-1-4">
+                                            <label for="expiration">Exp. Date</label>
+                                            <input type="month" id="expiration" class="input-error"/>
+                                        </div>
+                                        <div class="col-1-4">
+                                            <label for="cvv">CVV</label>
+                                            <input type="text" id="cvv" class="input-error"/>
+                                        </div>
+                                    </fieldset>
+                                    <hr class="divider">
+                                    <div>
+                                        <label for="notes">Order Notes</label>
+                                        <textarea placeholder="Notes about your order, e.g. special notes for delivery" id="notes"></textarea>
+                                    </div>
+                                    <input type="submit" value="Order" class="button button-primary float-right"/>
+                                </form>
                             </div>
+
+                            <!-- ORDER SUMMARY -->
+
                         </div>
                     </div>
                 </div>
