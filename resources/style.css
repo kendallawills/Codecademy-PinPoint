@@ -355,3 +355,20 @@ textarea {
     margin-bottom: 15px;
 }
 
+/* SHIPPING DETAILS */
+
+.radio-item {
+    margin-bottom: 15px;
+}
+
+.radio-item input {
+    display: inline-block;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+small {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.25;
+}
